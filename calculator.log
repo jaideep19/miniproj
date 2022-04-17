@@ -38,3 +38,75 @@
 16/Apr/2022:17:11:14 536 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 5.0
 16/Apr/2022:17:11:14 537 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 36.0
 16/Apr/2022:17:11:14 537 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 6.0
+17/Apr/2022:14:05:11 414 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 5
+17/Apr/2022:14:05:11 423 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 120
+17/Apr/2022:14:05:11 424 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 4
+17/Apr/2022:14:05:11 424 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 24
+17/Apr/2022:14:05:11 427 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 25.0
+17/Apr/2022:14:05:11 427 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 5.0
+17/Apr/2022:14:05:11 429 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 36.0
+17/Apr/2022:14:05:11 429 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 6.0
+17/Apr/2022:14:05:11 430 [App.java] [INFO] miniproj.Calculator.App [LOG] - 25.0
+17/Apr/2022:14:05:11 432 [App.java] [INFO] miniproj.Calculator.App [RESULT - LOG] - 3.2188758248682006
+17/Apr/2022:14:05:11 439 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 2.0
+17/Apr/2022:14:05:11 440 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 1.4142135623730951
+17/Apr/2022:14:05:11 442 [App.java] [INFO] miniproj.Calculator.App [POW] - 25.0-2.0
+17/Apr/2022:14:05:11 443 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 625.0
+17/Apr/2022:14:05:11 444 [App.java] [INFO] miniproj.Calculator.App [POW] - 5.0-25.0
+17/Apr/2022:14:05:11 444 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 2.9802322387695315E17
+17/Apr/2022:14:05:36 712 [App.java] [INFO] miniproj.Calculator.App [LOG] - 25.0
+17/Apr/2022:14:05:36 723 [App.java] [INFO] miniproj.Calculator.App [RESULT - LOG] - 3.2188758248682006
+17/Apr/2022:14:05:56 985 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 5
+17/Apr/2022:14:05:56 992 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 120
+17/Apr/2022:14:05:56 994 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 4
+17/Apr/2022:14:05:56 994 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 24
+17/Apr/2022:14:05:56 997 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 25.0
+17/Apr/2022:14:05:56 997 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 5.0
+17/Apr/2022:14:05:56 999 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 36.0
+17/Apr/2022:14:05:56 999 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 6.0
+17/Apr/2022:14:05:57 001 [App.java] [INFO] miniproj.Calculator.App [LOG] - 25.0
+17/Apr/2022:14:05:57 004 [App.java] [INFO] miniproj.Calculator.App [RESULT - LOG] - 3.2188758248682006
+17/Apr/2022:14:05:57 011 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 2.0
+17/Apr/2022:14:05:57 011 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 1.4142135623730951
+17/Apr/2022:14:05:57 013 [App.java] [INFO] miniproj.Calculator.App [POW] - 25.0-2.0
+17/Apr/2022:14:05:57 014 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 625.0
+17/Apr/2022:14:05:57 015 [App.java] [INFO] miniproj.Calculator.App [POW] - 5.0-25.0
+17/Apr/2022:14:05:57 016 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 2.9802322387695315E17
+17/Apr/2022:14:06:34 441 [App.java] [INFO] miniproj.Calculator.App [LOG] - 25.0
+17/Apr/2022:14:06:34 452 [App.java] [INFO] miniproj.Calculator.App [RESULT - LOG] - 3.2188758248682006
+17/Apr/2022:14:06:49 350 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 5
+17/Apr/2022:14:06:49 357 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 120
+17/Apr/2022:14:06:49 358 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 4
+17/Apr/2022:14:06:49 359 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 24
+17/Apr/2022:14:06:49 361 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 25.0
+17/Apr/2022:14:06:49 362 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 5.0
+17/Apr/2022:14:06:49 363 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 36.0
+17/Apr/2022:14:06:49 363 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 6.0
+17/Apr/2022:14:06:49 364 [App.java] [INFO] miniproj.Calculator.App [LOG] - 25.0
+17/Apr/2022:14:06:49 366 [App.java] [INFO] miniproj.Calculator.App [RESULT - LOG] - 3.2188758248682006
+17/Apr/2022:14:06:49 367 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 2.0
+17/Apr/2022:14:06:49 368 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 1.4142135623730951
+17/Apr/2022:14:06:49 369 [App.java] [INFO] miniproj.Calculator.App [POW] - 25.0-2.0
+17/Apr/2022:14:06:49 371 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 625.0
+17/Apr/2022:14:06:49 371 [App.java] [INFO] miniproj.Calculator.App [POW] - 5.0-25.0
+17/Apr/2022:14:06:49 372 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 2.9802322387695315E17
+17/Apr/2022:14:30:54 050 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 5
+17/Apr/2022:14:30:54 054 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 120
+17/Apr/2022:14:30:54 055 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 4
+17/Apr/2022:14:30:54 055 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 24
+17/Apr/2022:14:30:54 056 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 25.0
+17/Apr/2022:14:30:54 056 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 5.0
+17/Apr/2022:14:30:54 056 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 36.0
+17/Apr/2022:14:30:54 056 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 6.0
+17/Apr/2022:14:30:54 057 [App.java] [INFO] miniproj.Calculator.App [LOG] - 25.0
+17/Apr/2022:14:30:54 057 [App.java] [INFO] miniproj.Calculator.App [RESULT - LOG] - 3.2188758248682006
+17/Apr/2022:14:30:54 057 [App.java] [INFO] miniproj.Calculator.App [ROOT] - 2.0
+17/Apr/2022:14:30:54 057 [App.java] [INFO] miniproj.Calculator.App [RESULT - ROOT] - 1.4142135623730951
+17/Apr/2022:14:30:54 058 [App.java] [INFO] miniproj.Calculator.App [POW] - 25.0-2.0
+17/Apr/2022:14:30:54 058 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 625.0
+17/Apr/2022:14:30:54 058 [App.java] [INFO] miniproj.Calculator.App [POW] - 5.0-25.0
+17/Apr/2022:14:30:54 059 [App.java] [INFO] miniproj.Calculator.App [RESULT - POW] - 2.9802322387695315E17
+17/Apr/2022:14:34:31 643 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 10
+17/Apr/2022:14:34:31 656 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 3628800
+17/Apr/2022:14:36:11 760 [App.java] [INFO] miniproj.Calculator.App [FACTORIAL] - 5
+17/Apr/2022:14:36:11 763 [App.java] [INFO] miniproj.Calculator.App [RESULT - FACTORIAL] - 120

@@ -46,4 +46,36 @@ public class AppTest
     	assertNotEquals(cal_value,exp_value,delta);
 //        assertTrue( true );
     }
+    @Test
+    public void testpow1()
+    {
+    	double cal_value=calci.power(25.0,2);
+    	double exp_value=625;
+    	assertEquals(cal_value,exp_value,delta);
+//        assertTrue( true );
+    }
+    @Test
+    public void testpow2()
+    {
+    	double cal_value=calci.power(5,25.0);
+    	double exp_value=5.0;
+    	assertNotEquals(cal_value,exp_value,delta);
+//        assertTrue( true );
+    }
+    @Test
+    public void testlog1()
+    {
+    	double cal_value=calci.log(25.0);
+    	double exp_value=3.2188758248682006;
+    	assertEquals(cal_value,exp_value,delta);
+//        assertTrue( true );
+    }
+    @Test
+    public void testlog2()
+    {
+    	double cal_value=calci.root(2.0);
+    	double exp_value=5.0;
+    	assertNotEquals(cal_value,exp_value,delta);
+//        assertTrue( true );
+    }
 }
