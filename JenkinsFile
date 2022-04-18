@@ -1,0 +1,66 @@
+pipeline {
+
+environment {
+        PATH="/opt/homebrew/bin/:/usr/local/bin/:$PATH"
+        registry = "jaideepkukkadapu/miniproj"
+        DOCKER_BUILDKIT=0
+        COMPOSE_DOCKER_CLI_BUILD=0
+        dockerImage=""
+        DOCKER_DEFAULT_PLATFORM="linux/amd64" 
+
+    }
+  agent any
+  stages {
+      
+    stage('GIT CLONE') {
+      steps {
+        git branch: 'main', url: 'https://github.com/jaideep19/miniproj'
+      }
+    }
+//     stage('MVN COMPILE') {
+//       steps {
+//         echo "Compiling the source Java classes of the project"
+// 		sh "mvn compile"
+//       }
+//     }
+    // stage('MVN TEST') {
+    //   steps {
+    //     echo "Running the test cases of the project"
+    //     sh "mvn test"
+    //   }
+    // }
+    stage('MVN INSTALL') {
+      steps {
+        echo "building the project and installs the project files(JAR) to the local repository"
+        
+        sh "/opt/homebrew/bin/mvn clean install"
+        sh "env"
+      }
+    }
+    stage('Docker Image build'){
+        steps{
+
+            script{
+                dockerImage = docker.build registry + ":latest" 
+            }
+        }
+    }
+    stage('Docker Image Push'){
+        steps{
+            // sh "ls" 
+            script{
+                dockerImage.push()
+            }
+            sh "ansible --version"
+        }
+    }
+    stage('Deploy to ansible'){
+        steps{
+ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'miniproj/inventory', playbook: 'miniproj/scical.yml', sudoUser: null
+        }
+    }
+    
+  }
+ 
+}
+
