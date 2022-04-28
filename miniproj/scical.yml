@@ -33,24 +33,3 @@
       docker_image:
         name: jaideepkukkadapu/miniproj
         source: pull
-
-'%{HTTPDATE:timestamp} \[%{JAVAFILE:class}\] (%{NOTSPACE:ndc})? %{WORD:classname} \[%{GREEDYDATA:result_tag}\]-%{BASE16FLOAT:result}'
-# '%{HTTPDATE:timestamp} \[%{JAVAFILE:class}\] (%{NOTSPACE:ndc})? %{WORD:classname} \[%{WORD:result_tag}\]- %{WORD:function_name}\]-%{BASE16FLOAT:result}'
-18 Apr 2022 00:10:25,400,  [main], INFO,  miniproj.Calculator.App -, [ROOT] - 2.0
-18 Apr 2022 00:10:25,404,  [main], INFO,  miniproj.Calculator.App -, [RESULT - ROOT] - 1.4142135623730951
-18 Apr 2022 00:11:24,018,  [main], INFO,  miniproj.Calculator.App -, [FACTORIAL] - 5
-18 Apr 2022 00:11:24,019,  [main], INFO,  miniproj.Calculator.App -, [RESULT - FACTORIAL] - 120
-18 Apr 2022 00:11:24,020,  [main], INFO,  miniproj.Calculator.App -, [FACTORIAL] - 4
-18 Apr 2022 00:11:24,020,  [main], INFO,  miniproj.Calculator.App -, [RESULT - FACTORIAL] - 24
-18 Apr 2022 00:11:24,020,  [main], INFO,  miniproj.Calculator.App -, [ROOT] - 25.0
-18 Apr 2022 00:11:24,020,  [main], INFO,  miniproj.Calculator.App -, [RESULT - ROOT] - 5.0
-18 Apr 2022 00:11:24,020,  [main], INFO,  miniproj.Calculator.App -, [ROOT] - 36.0
-18 Apr 2022 00:11:24,021,  [main], INFO,  miniproj.Calculator.App -, [RESULT - ROOT] - 6.0
-18 Apr 2022 00:11:24,021,  [main], INFO,  miniproj.Calculator.App -, [LOG] - 25.0
-18 Apr 2022 00:11:24,021,  [main], INFO,  miniproj.Calculator.App -, [RESULT - LOG] - 3.2188758248682006
-18 Apr 2022 00:11:24,021,  [main], INFO,  miniproj.Calculator.App -, [ROOT] - 2.0
-18 Apr 2022 00:11:24,021,  [main], INFO,  miniproj.Calculator.App -, [RESULT - ROOT] - 1.4142135623730951
-18 Apr 2022 00:11:24,021,  [main], INFO,  miniproj.Calculator.App -, [POW] - 25.0-2.0
-18 Apr 2022 00:11:24,022,  [main], INFO,  miniproj.Calculator.App -, [RESULT - POW] - 625.0
-18 Apr 2022 00:11:24,022,  [main], INFO,  miniproj.Calculator.App -, [POW] - 5.0-25.0
-18 Apr 2022 00:11:24,022,  [main], INFO,  miniproj.Calculator.App -, [RESULT - POW] - 2.9802322387695315E17
